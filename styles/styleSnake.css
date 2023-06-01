@@ -7,23 +7,24 @@
 }
 body
 {
-    background-color: #bbc4ce;
+    background-color: indigo;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
 }
 .container-Game
 {
     width: 65vmin;
     height: 70vmin;
-    background-color: #7e7c7c;
+    background-color:black;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 .game-detalles{
-    color: #ffff; 
+    color: #ffffff; 
     font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
@@ -46,5 +47,20 @@ body
 }
 .Board .head{
     background-color: #00ff7b;
-    border-radius: 50%;
+    border-radius: 20%;
+}
+a{
+    display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fcc70;
+	border: 1px solid #2fcc37;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+a:hover{
+    background: #2fb4cc;
+	color: #fff;
 }

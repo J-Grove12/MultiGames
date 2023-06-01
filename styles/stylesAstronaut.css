@@ -43,8 +43,24 @@ button {
 button:not(:last-child) {
     margin-right: 10px;
 }
-
-
+#back {
+    background-color: #308d4c;
+}
+a{
+    display: inline-block;
+	padding: 10px;
+    margin-right: 10px;
+	text-decoration: none;
+	color: #2fcc70;
+	border: 1px solid #2fcc37;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	
+}
+a:hover{
+    background: #2fb4cc;
+	color: #fff;
+}
 @media (max-width: 440px) {
     button {
         margin-top: 25px;
